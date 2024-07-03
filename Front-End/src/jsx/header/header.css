@@ -1,0 +1,77 @@
+.header {
+  background-color: #fff;
+  padding: 1rem 0;
+  padding-right: 10px;
+  margin-left: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  justify-content: space-between;
+}
+
+.header__logo {
+  float: left;
+}
+
+.header__logo a {
+  display: block;
+  height: 3rem;
+}
+
+.header__logo img {
+  height: 100%;
+}
+
+.header__actions {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.header__button {
+  background-color: red;
+  border: none;
+  border-radius: 1.25rem;
+  color: #fff;
+  padding: 0.9rem 1.2rem;
+  text-transform: uppercase;
+  transition: background-color 0.2s ease;
+}
+
+.header__button:hover {
+  background-color: #00235b;
+}
+
+.header__link {
+  color: #003087;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.header__link:hover {
+  color: #00235b;
+}
+
+.header__search {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  margin-left: 1rem;
+  padding: 0;
+  transition: background-color 0.2s ease;
+}
+
+.header__search:hover {
+  background-color: #f2f2f2;
+}
+
+.header__search svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: white;
+}
